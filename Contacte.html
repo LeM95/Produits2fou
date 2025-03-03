@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produit2Fou</title>
+    <link rel="stylesheet" href="stylecss.css">
+    <script src="https://kit.fontawesome.com/06b6a43379.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="menu">
+        <div class="logo">
+            <p>PRODUIT2FOU</p>
+        </div>
+        <div class="lien">
+            <nav id="menu-nav">
+                <ul>
+                    <li><a href="index.html" id="nonmarge"><i class="fa-solid fa-house fa-xl" style="color: #ffffff;" ></i></a><a href="index.html" >Acceuil</a></li>
+                    <li><a href="Produit.html" id="nonmarge"><i class="fa-solid fa-tag fa-xl"  style="color: #ffffff;"></i></a><a href="Produit.html">Produits</a></li>
+                    <li><a href="Service.html" id="nonmarge"><i class="fa-solid fa-paint-roller fa-xl" style="color: #ffffff;"></i></a><a href="Service.html">Nos Service</a></li>
+                    <li><a href="Contacte.html" id="nonmarge"><i class="fa-solid fa-envelope fa-xl" style="color: #ffffff;"></i></a><a href="Contacte.html" id="ici">Contacte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="/img/back.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+        </video>
+    </div>
+    <div class="container">
+
+    </div>
+   
+    <script>
+        function toggleMenu() {
+            var logo = document.querySelector('.logo');
+            var menu = document.getElementById('menu-nav');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+                logo.style.alignItems = 'center';
+            } else {
+                menu.style.display = 'block';
+                logo.style.alignItems = 'flex-start';
+            }
+
+        }
+    </script>
+</body>
+</html>
