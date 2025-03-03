@@ -405,7 +405,7 @@ body { color: white; text-align: center; }
     flex-direction: row;
 }
 #decoration{
-    background-image: url("/img/IMG_7375.JPEG");
+    background-image: url("img/IMG_7375.JPEG");
     background-size: cover;
     font-weight: 200;
     font-size: 25px;
@@ -422,7 +422,7 @@ h6{
          color: #111;
 }
 #encastrement{
-    background-image: url(/img/encastrement.jpg);
+    background-image: url(img/encastrement.jpg);
     background-size: cover;
     width: 50%;
     border: 3px solid rgb(0, 0, 0);
