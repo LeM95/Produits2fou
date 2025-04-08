@@ -459,3 +459,8 @@ h6{
     padding: 10px;
     border-radius: 5px;
 }
+video {
+    pointer-events: none;
+    user-select: none;
+  }
+  
