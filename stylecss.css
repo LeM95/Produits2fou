@@ -415,10 +415,10 @@ body { color: white; text-align: center; }
 
 h6{
     text-shadow: 
-        -1px -1px 0 gold,  
-         1px -1px 0 gold,
-        -1px  1px 0 gold,
-         1px  1px 0 gold;
+        -1px -1px 0 rgb(255, 255, 255),  
+         1px -1px 0 rgb(255, 255, 255),
+        -1px  1px 0 rgb(255, 255, 255),
+         1px  1px 0 rgb(255, 255, 255);
          color: #111;
 }
 #encastrement{
